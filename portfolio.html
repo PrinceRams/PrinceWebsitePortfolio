@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>My Awesome Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+	<!----------Navigation Bar---------->
+
+    <nav class="navbar">
+        <a href="#" class="logo"><span style="color: #000;">Prince</span><span style="color: #B8860B;">Dev</span></a>
+        
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <nav id="mobile-nav">
+        <a href="#" class="logo"><span style="color: #000;">Prince</span><span style="color: #B8860B;">Dev</span></a>
+        
+        <div class="menu">
+            <div class="toggle-icon" onclick="toggleMenu()">
+                <i class='bx bx-menu' ></i>
+            </div>
+            <div class="menu-links">
+                <li class="active"><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="portfolio.html" onclick="toggleMenu()">Portfolio</a></li>
+                <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+        
+        
+    </nav>
+
+<!----------Portfolio Section---------->
+
+    <section class="portfolio" id="portfolio">
+        <div class="text-center">
+            <h2>My <span style="color: #B8860B;">Portfolio</span></h2>
+            <h4>PrinceDev, Bringing Ideas To Live!</h4>
+
+            <div class="portfolio-item">
+                <div class="portfolio-box">
+                    <i class='bx bx-mobile-alt'></i>
+                    <h3>Web Design</h3>
+                    <p>I create and plan the visual layout, structure, and user experience (UX) of websites.
+                    It involves using elements like colors, typography, images, and navigation to build 
+                    a site that is both functional and aesthetically appealing.
+                    </p>
+                </div>
+                <div class="portfolio-box">
+                    <i class='bx bx-code-curly'></i>
+                    <h3>Web Development</h3>
+                    <p>I build and maintain websites or web applications. It involves coding and programming
+                     to create the functionality and interactivity of a site, including front-end (what users see and interact with) 
+                     and back-end (server-side operations and databases) development. 
+                    </p>
+                </div>
+                <div class="portfolio-box">
+                    <i class='bx bxs-bar-chart-alt-2'></i>
+                    <h3>Data Analysis</h3>
+                    <p>I inspect, clean, transform, and model data to discover useful information, draw conclusions, 
+                        and support decision-making. It involves using statistical tools and techniques to identify patterns, trends, 
+                        and insights from data sets.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-text">
+            <h2>My <span style="color: #B8860B;">Projects</span></h2>
+        </div>
+        <div class="portfolio-content">
+            <div class="row">
+                <img src="breastcancer.jpg">
+                <div class="layer">
+                    <h5>Breast Cancer Awareness Website</h5>
+                    <button><a href="">Visit Site</a></button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="FELV-cat.jpg">
+                <div class="layer">
+                    <h5>CatPhotoApp</h5>
+                    <button type="btn"><a href="https://princerams.github.io/catPhotoApp/">Visit Site</a></button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="tribute.jpg">
+                <div class="layer">
+                    <h5>Tribute Website</h5>
+                    <button type="btn"><a href="https://princerams.github.io/philFoden/">Visit Site</a></button>
+                </div>
+            </div>  
+            <div class="row">
+                <img src="coffee.jpg">
+                <div class="layer">
+                    <h5>Coffee Menu</h5>
+                    <button type="btn"><a href="https://princerams.github.io/cafeMenu/">Visit Site</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!----------Footer Section---------->
+
+   <section class="footerSection">
+    <footer class="footer wrapper">
+        <div class="container">
+            <!--div class="line"></div-->
+            <div class="footer_row">
+                <div class="footer_col">
+                    <h4>Navigation</h4>
+                    <nav>
+                        <ul>
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>  
+
+                </div>
+                <div class="footer_col">
+                    <h4>Follow Me</h4>
+                    <div class="social_links">
+                        <a href="https://github.com/PrinceRams"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.linkedin.com/in/prince-ramatsoma-9758b6218/"><i class='bx bxl-linkedin' ></i></a>
+                    </div>  
+
+                    <!--a href="indexContactii.html"><button class="button">Contact Us</button></a-->
+
+                </div>
+                <div class="footer_col">
+                    <div class="addressColor">
+                        <h4>Address</h4>
+                        <ul>
+                            <li>2333 Bay Street, Diepsloot, 2069</li>
+                            <li>princeramatsoma@gmail.com</li>
+                            <li>+27818535105</li>
+                   
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

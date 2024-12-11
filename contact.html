@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>My Awesome Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+	<!----------Navigation Bar---------->
+
+    <nav class="navbar">
+        <a href="#" class="logo"><span style="color: #000;">Prince</span><span style="color: #B8860B;">Dev</span></a>
+        
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <nav id="mobile-nav">
+        <a href="#" class="logo"><span style="color: #000;">Prince</span><span style="color: #B8860B;">Dev</span></a>
+        
+        <div class="menu">
+            <div class="toggle-icon" onclick="toggleMenu()">
+                <i class='bx bx-menu' ></i>
+            </div>
+            <div class="menu-links">
+                <li class="active"><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="portfolio.html" onclick="toggleMenu()">Portfolio</a></li>
+                <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+        
+        
+    </nav>
+
+<!----------Contact Section---------->
+       
+    <section class="body"><br>
+        <h1>Contact <span style="color: #B8860B;">Info</span></h1>
+        <p>Fill in the information below to get in touch with me.</p>
+        <div class="contact-wrap">
+            <div class="contactInfo">
+                <h1>Contact <span style="color: #B8860B;">Info</span></h1>
+                <h2><i class='bx bxs-phone'></i>Phone</h2>
+                <p>081 853 5105/ 081 381 6305</p>
+                <h2><i class='bx bxs-envelope' ></i>Email</h2>
+                <p>princeramatsoma@gmail.com</p>
+                <h2><i class='bx bxs-location-plus' ></i>Address</h2>
+                <p>2333 Bay Street, Diepsloot, 2069</p>
+            </div>
+            <div class="contactInfo">
+                <h1>Send a Message</h1>
+                <form>
+                    <input type="text" placeholder="Full Name" class="contactInfo-input">
+                    <input type="text" placeholder="Email" class="contactInfo-input">
+                    <input type="text" placeholder="Subject" class="contactInfo-input">
+                    <textarea placeholder="Message" class="contactInfo-input-textarea"></textarea>
+                    <input type="submit" value="SUBMIT" class="contactInfo-btn">
+                </form>
+            </div>
+            <div class="contactInfo">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114584.75890640717!2d27.
+                957622829550367!3d-26.17149804469362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c68f0406a51%3A0x238ac9d9b1d34041!
+                2sJohannesburg!5e0!3m2!1sen!2sza!4v1732526647605!5m2!1sen!2sza" width="100%" height="auto" style="border:0;" allowfullscreen="" 
+                loading="fast" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+  <!----------Footer Section---------->
+
+  <section class="footerSection">
+    <footer class="footer wrapper">
+        <class="container">
+            <!--div class="line"></div-->
+            <div class="footer_row">
+                <div class="footer_col">
+                    <h4>Navigation</h4>
+                    <nav>
+                        <ul>
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>  
+
+                </div>
+                <div class="footer_col">
+                    <h4>Follow Me</h4>
+                    <div class="social_links">
+                        <a href="https://github.com/PrinceRams"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.linkedin.com/in/prince-ramatsoma-9758b6218/"><i class='bx bxl-linkedin' ></i></a>
+                    </div>  
+
+                    <!--a href="indexContactii.html"><button class="button">Contact Us</button></a-->
+
+                </div>
+                <div class="footer_col">
+                    <div class="addressColor">
+                        <h4>Address</h4>
+                        <ul>
+                            <li>2333 Bay Street, Diepsloot, 2069</li>
+                            <li>princeramatsoma@gmail.com</li>
+                            <li>+27818535105</li>
+                   
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
